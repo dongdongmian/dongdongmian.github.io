@@ -97,10 +97,15 @@ hexo deploy</code></pre></div>
 
 <p>Hugo网站可以在任何地方托管，包括Netlify，Heroku，GoDaddy，DreamHost，GitHub Pages，GitLab Pages，Surge，Aerobatic，Firebase，Google云端存储，Amazon S3，Rackspace，Azure和CloudFront，并且可以与CDN配合使用。Hugo站点运行时无需数据库或依赖于Ruby，Python或PHP。</p>
 
-<p>适合hugo的人:
-1. Hugo适合喜欢在浏览器上使用文本编辑器编写的人。
-2. Hugo适用于那些想要自己编写自己网站代码的人，而不必担心设置复杂的运行时，依赖关系和数据库。
-3. Hugo适用于构建博客，公司站点，投资组合站点，文档，单个登录页面或具有数千页的网站的人员。</p>
+<p>适合hugo的人:</p>
+
+<ol>
+<li><p>Hugo适合喜欢在浏览器上使用文本编辑器编写的人。</p></li>
+
+<li><p>Hugo适用于那些想要自己编写自己网站代码的人，而不必担心设置复杂的运行时，依赖关系和数据库。</p></li>
+
+<li><p>Hugo适用于构建博客，公司站点，投资组合站点，文档，单个登录页面或具有数千页的网站的人员。</p></li>
+</ol>
 
 <p>参考链接：</p>
 
