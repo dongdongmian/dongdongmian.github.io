@@ -7,8 +7,128 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 01 Oct 2018 16:15:09 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 27 Nov 2018 20:37:54 +0800</lastBuildDate>
     <atom:link href="http://dongdongmian.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>博客:初心和历程</title>
+      <link>http://dongdongmian.github.io/posts/blog-start/</link>
+      <pubDate>Tue, 27 Nov 2018 20:37:54 +0800</pubDate>
+      
+      <guid>http://dongdongmian.github.io/posts/blog-start/</guid>
+      <description>初心 早就想把博客建立起来了，有了自己的博客，才像是有了自己的家一样。很久都没有写博客了，其实应该写的。如果不写点什么也就代表着自己也没有在学</description>
+      <content type="html"><![CDATA[
+
+<h2 id="初心">初心</h2>
+
+<p>早就想把博客建立起来了，有了自己的博客，才像是有了自己的家一样。很久都没有写博客了，其实应该写的。如果不写点什么也就代表着自己也没有在学习什么。</p>
+
+<p>有挺多的事情想要坚持下去的，其实说实话很多很多。想要学很多的东西，想要完成自己想做的事情。总是用了一个又一个的本子，可是最后都找不到它们的踪影了。很久之后就遗忘了，就不再捡起那些东西。</p>
+
+<p>想要在这里记录自己的成长，生活，变化。也许会有不同的心情，风景。学到了不一样的知识，看了不一样的书之类的。总之，就是想把生活中的事情一点点都做个记录。</p>
+
+<p>之后还有几件比较想做的事情：
+1. 把我一直想写的那本书写一下，不是写给什么人看吧，大概就是想写这个样子。预计会用到的参考类书目：
+* 编码：隐匿在计算机软硬件背后的语言
+* 计算机组成原理
+* x86汇编语言:从实模式到保护模式
+* 数字逻辑
+* 自动机和图灵机
+* 编译原理
+* 操作系统
+2. 记录一直想做的事情，比如学经济学，去西藏，声乐，舞蹈等等。
+3. 除此之外就是一直保持自己的学习状态了，每天都关注学一些专业上的知识。
+4. 多看书。买了很多的书，但是大部分都还没有看完。希望能多看点书，做个胸有点墨之人，哈哈。</p>
+
+<h2 id="历程">历程</h2>
+
+<p>从昨天开始找框架软件来支持博客，到今天终于算是初步可以用了。折腾博客的话，放在之后的工作中完成。最近没有那么多的时间去学相关的知识。比如说css，js等内容都需要往后放一放了。</p>
+
+<p>一开始选择的平台是hexo+github，也是在浏览别人的博客的时候发现作者介绍了自己博客的构建方法。看到了他们的博客之后觉得模版非常好看，然后觉得这个方法可行。所以果断安装了，也跑起来了一个初步的模版。</p>
+
+<p>但是后面发现学习hexo确实存在发布比较慢的问题，又从网上看到他们用hugo。hugo的优点就是小，安装非常方便，但是模版相对hexo少一些。功能上hugo是一个静态网站的模版，所以应该比不上hexo炫酷，但对于写博客来说，认为已经足够了。</p>
+
+<hr />
+
+<h3 id="hexo-github-搭建博客">hexo+github 搭建博客</h3>
+
+<p>这个部分并不准备详细写了，粘贴几个比较有参考性的网站基本上也比较容易搭建起来。</p>
+
+<p>参考链接：</p>
+
+<blockquote>
+<p><a href="https://hexo.io/zh-cn/docs/setup" target="_blank">hexo 官方教程</a></p>
+
+<p><a href="https://www.cnblogs.com/visugar/p/6821777.html" target="_blank">hexo从零开始到搭建完整</a></p>
+
+<p><code>基本上跟着上面这个链接的教程搭建就可以成功了.</code></p>
+
+<p><a href="http://www.runoob.com/w3cnote/git-guide.html" target="_blank">git配置</a></p>
+
+<p><a href="https://hexo.io/themes/" target="_blank">hexo主题选择</a></p>
+
+<p><a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank">功能齐全主题 Yelee</a></p>
+
+<p><a href="https://github.com/probberechts/hexo-theme-cactus" target="_blank">cactus主题（个人稀饭）</a></p>
+</blockquote>
+
+<p>部署的命令</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">hexo clean
+hexo generate
+hexo deploy</code></pre></div>
+<hr />
+
+<h3 id="hugo-github-搭建博客">hugo+github 搭建博客</h3>
+
+<p>hugo和hexo相比，生成站点的速度更快。</p>
+
+<p>hugo是用go语言写成的静态站点生成器，是通用网站框架。</p>
+
+<p>Hugo网站可以在任何地方托管，包括Netlify，Heroku，GoDaddy，DreamHost，GitHub Pages，GitLab Pages，Surge，Aerobatic，Firebase，Google云端存储，Amazon S3，Rackspace，Azure和CloudFront，并且可以与CDN配合使用。Hugo站点运行时无需数据库或依赖于Ruby，Python或PHP。</p>
+
+<p>适合hugo的人:
+1. Hugo适合喜欢在浏览器上使用文本编辑器编写的人。
+2. Hugo适用于那些想要自己编写自己网站代码的人，而不必担心设置复杂的运行时，依赖关系和数据库。
+3. Hugo适用于构建博客，公司站点，投资组合站点，文档，单个登录页面或具有数千页的网站的人员。</p>
+
+<p>参考链接：</p>
+
+<blockquote>
+<p><a href="https://gohugo.io" target="_blank">hugo</a></p>
+
+<p><a href="http://jekyllcn.com/docs/configuration/" target="_blank">jekyll文档</a></p>
+
+<p><a href="https://gohugo.io/about/" target="_blank">hugo官方文档</a></p>
+
+<p><a href="https://themes.gohugo.io" target="_blank">hugo themes</a></p>
+
+<p><a href="https://themes.gohugo.io//theme/hermit/posts/" target="_blank">hermit主题</a></p>
+
+<p><a href="https://blog.csdn.net/qq_30682027/article/details/83536577#123_configtoml_54" target="_blank">hugo的使用</a></p>
+
+<p><a href="http://www.gohugo.org/post/coderzh-hugo/" target="_blank">使用hugo搭建个人博客站点</a></p>
+
+<p><a href="https://sqh.me/tech/host-hugo-blog-using-caddy/" target="_blank">使用caddy和hugo搭建个人博客</a></p>
+</blockquote>
+
+<h4 id="使用hugo-mac">使用hugo(mac)</h4>
+
+<ul>
+<li>安装:<code>brew install hugo</code></li>
+<li>验证: <code>hugo version</code></li>
+<li>创建站点: <code>hugo new site quickstart</code>  <em>实际创建一个quickstart文件夹</em></li>
+<li>添加主题:</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke<span class="p">;</span><span class="se">\
+</span><span class="se"></span><span class="nb">echo</span> <span class="s1">&#39;theme = &#34;ananke&#34;&#39;</span> &gt;&gt; config.toml</code></pre></div>
+<p><strong>需要注意的是</strong></p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># config.toml文件配置中</span>
+<span class="c1"># 博客的发布目录。测试时使用如下路径，发布到网络后，要修改为网路地址</span>
+<span class="nv">baseurl</span> <span class="o">=</span> <span class="s2">&#34;https://localhost:1313/&#34;</span>
+<span class="c1"># 例如改为博主的地址，最后的斜线不能少：  baseurl = &#34;https://dongdongmian.github.io/&#34;</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 尝试了下面的这个命令，表示并不能修改 config.toml，需要手动修改配置文件</span>
+hugo --theme<span class="o">=</span>hyde --baseUrl<span class="o">=</span><span class="s2">&#34;http://coderzh.github.io/&#34;</span></code></pre></div>]]></content>
+    </item>
     
     <item>
       <title>Post With Featured Image</title>

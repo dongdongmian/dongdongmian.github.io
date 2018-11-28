@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 01 Oct 2018 16:15:09 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 27 Nov 2018 20:37:54 +0800</lastBuildDate>
     
 	<atom:link href="http://dongdongmian.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>博客:初心和历程</title>
+      <link>http://dongdongmian.github.io/posts/blog-start/</link>
+      <pubDate>Tue, 27 Nov 2018 20:37:54 +0800</pubDate>
+      
+      <guid>http://dongdongmian.github.io/posts/blog-start/</guid>
+      <description>初心 早就想把博客建立起来了，有了自己的博客，才像是有了自己的家一样。很久都没有写博客了，其实应该写的。如果不写点什么也就代表着自己也没有在学</description>
+    </item>
     
     <item>
       <title>Post With Featured Image</title>
